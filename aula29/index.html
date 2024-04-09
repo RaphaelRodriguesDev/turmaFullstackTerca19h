@@ -7,6 +7,7 @@
   <title>Aula 29</title>
 
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
     * {
       padding: 0;
@@ -15,11 +16,20 @@
     }
 
     body {
+      font-family: "Open Sans", sans-serif;
 
+      font-size: 1.1em;
+    }
+
+    span.destaque {
+      color: red;
+      font-style: italic;
+      font-weight: 600;
+      font-size: 30px;
     }
 
     header h1 {
-      color : white;
+      color: white;
       background-color: black;
       /*padding-top: 60px;
       padding-right: 60px;
@@ -37,7 +47,7 @@
       border: solid 10px green;
       width: 200px;
       height: 200px;
-      background-color: red;
+      background-color: rgb(0, 183, 255);
     }
 
     main div.quadrado2 {
@@ -50,7 +60,6 @@
       border-top-left-radius: 40px;
       border-top-right-radius: 40px;
     }
-
   </style>
 
 </head>
@@ -64,7 +73,7 @@
   <main>
 
     <div class="quadrado">
-      elemento
+      <span class="destaque">E</span>lemento
     </div>
 
     <div class="quadrado2"></div>
