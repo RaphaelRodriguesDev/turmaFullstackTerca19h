@@ -5,3 +5,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+ul {
+  text-align: center;
+}
+
+ul li {
+  height: 100px;
+  display: inline;
+  background-color: black;
+}
