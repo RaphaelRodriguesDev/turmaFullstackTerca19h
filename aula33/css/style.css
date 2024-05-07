@@ -1,0 +1,35 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  gap: 10px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+div.square {
+  width: 100px;
+  height: 100px;
+  background-color: #ff0000;
+}
