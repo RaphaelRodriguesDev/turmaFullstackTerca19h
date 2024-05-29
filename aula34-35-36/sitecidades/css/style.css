@@ -1,0 +1,214 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Cabeçalho */
+header.cabecalho div.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+div.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+/* Menu */
+nav.menu {
+  margin-top: 10px;
+}
+
+nav.menu ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+nav.menu ul li a {
+  color: #1a1a1a;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 17px;
+  transition: 0.3s;
+}
+
+nav.menu ul li a:hover {
+  color: #ff8000;
+}
+
+/* Título */
+main.principal div.container-titulo {
+  width: 100%;
+  background-color: #ff8000;
+  padding: 15px;
+}
+
+main.principal div.container-titulo h1 {
+  color: #FFF;
+  text-align: center;
+  font-size: 48px;
+  text-transform: uppercase;
+}
+
+/* Módulo Sobre */
+div.modulo {
+  width: 100%;
+  padding: 50px 0;
+}
+
+div.sobre {
+  background-color: #DDD;
+}
+
+h2.subtitulo {
+  font-size: 32px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+div.container-btn {
+  font-size: 32px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.btn-saiba-mais {
+  background-color: #FF8000;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  transition: transform 0.3s;
+}
+
+.btn-saiba-mais:hover {
+  transform: scale(1.2);
+  filter: brightness(0.95);
+}
+
+.btn-saiba-mais a {
+  text-align: center;
+  text-decoration: none;
+  color: #FFF;
+  font-size: 20px;
+}
+
+/* Modulo Tabela */
+
+table.tabela {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table.tabela thead {
+  background-color: #333;
+  color: #FFF;
+}
+
+table.tabela td, table.tabela th {
+  border: 1px solid #333;
+  padding: 7px;
+}
+
+/* Modulo Locais Interesse */
+div.lista-locais ul{
+  display: flex;
+  justify-content: center;
+}
+
+div.lista-locais ul li{
+  list-style: none;
+  display: inline-block;
+  color: #FFF;
+  background-color: #FF8000;
+  padding: 7px 12px;
+  margin: 0 3px;
+  border-radius: 5px;
+}
+
+/* Rodapé */
+footer.rodape {
+  width: 100%;
+  padding: 50px 0;
+  background-color: #333;
+  background-image: url(../assets/img/padrao-fundo-rodape.png);
+  border-top: 6px solid #FF8000;
+  text-align: center;
+  clear: both;
+}
+
+footer.rodape div.logo {
+  margin-bottom: 30px;
+}
+
+footer.rodape div.creditos {
+  color: #FFF;
+}
+
+/* Pagina Complemento */
+
+div.mapa {
+  width: 100%;
+}
+
+div.mapa img {
+  float: left;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+div.notaveis {
+  float: left;
+}
+
+div.notaveis ol {
+  font-size: 22px;
+  float: left;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Pagina Sugestão */
+
+div.sugestao-texto {
+  text-align: center;
+}
+
+div.form-container {
+  width: 100%;
+  margin: 15px 0;
+}
+
+input.form {
+  width: 100%;
+  min-height: 40px;
+  font-size: 17px;
+  text-indent: 10px;
+}
+
+input.form-botao {
+  padding: 15px 30px;
+  background-color: #FF8000;
+  border: none;
+  color: #FFF;
+  font-size: 17px;
+  cursor: pointer;
+  transition: transform 0.3s
+}
+
+input.form-botao:hover {
+  background-color: #FF8000;
+}
