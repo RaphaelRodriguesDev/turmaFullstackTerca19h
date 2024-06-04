@@ -54,7 +54,7 @@ main.principal div.container-titulo {
 }
 
 main.principal div.container-titulo h1 {
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-size: 48px;
   text-transform: uppercase;
@@ -67,7 +67,7 @@ div.modulo {
 }
 
 div.sobre {
-  background-color: #DDD;
+  background-color: #ddd;
 }
 
 h2.subtitulo {
@@ -85,7 +85,7 @@ div.container-btn {
 }
 
 .btn-saiba-mais {
-  background-color: #FF8000;
+  background-color: #ff8000;
   padding: 15px;
   border: none;
   border-radius: 5px;
@@ -100,7 +100,7 @@ div.container-btn {
 .btn-saiba-mais a {
   text-align: center;
   text-decoration: none;
-  color: #FFF;
+  color: #fff;
   font-size: 20px;
 }
 
@@ -113,25 +113,26 @@ table.tabela {
 
 table.tabela thead {
   background-color: #333;
-  color: #FFF;
+  color: #fff;
 }
 
-table.tabela td, table.tabela th {
+table.tabela td,
+table.tabela th {
   border: 1px solid #333;
   padding: 7px;
 }
 
 /* Modulo Locais Interesse */
-div.lista-locais ul{
+div.lista-locais ul {
   display: flex;
   justify-content: center;
 }
 
-div.lista-locais ul li{
+div.lista-locais ul li {
   list-style: none;
   display: inline-block;
-  color: #FFF;
-  background-color: #FF8000;
+  color: #fff;
+  background-color: #ff8000;
   padding: 7px 12px;
   margin: 0 3px;
   border-radius: 5px;
@@ -143,7 +144,7 @@ footer.rodape {
   padding: 50px 0;
   background-color: #333;
   background-image: url(../assets/img/padrao-fundo-rodape.png);
-  border-top: 6px solid #FF8000;
+  border-top: 6px solid #ff8000;
   text-align: center;
   clear: both;
 }
@@ -153,7 +154,7 @@ footer.rodape div.logo {
 }
 
 footer.rodape div.creditos {
-  color: #FFF;
+  color: #fff;
 }
 
 /* Pagina Complemento */
@@ -171,6 +172,8 @@ div.mapa img {
 
 div.notaveis {
   float: left;
+  background-color: #f1f0f0;
+  margin-top: 20px;
 }
 
 div.notaveis ol {
@@ -199,16 +202,20 @@ input.form {
   text-indent: 10px;
 }
 
+textarea#sugestao {
+  width: 100%;
+}
+
 input.form-botao {
   padding: 15px 30px;
-  background-color: #FF8000;
+  background-color: #ff8000;
   border: none;
-  color: #FFF;
+  color: #fff;
   font-size: 17px;
   cursor: pointer;
-  transition: transform 0.3s
+  transition: transform 0.3s;
 }
 
 input.form-botao:hover {
-  background-color: #FF8000;
+  background-color: #ff8000;
 }
