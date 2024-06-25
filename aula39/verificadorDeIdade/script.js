@@ -34,6 +34,10 @@ function verificarIdade() {
 
     }
 
-  }
+    resultado.innerHTML = `Detectamos ${faixaEtaria} com ${idade} anos.`
+    resultado.appendChild(img);
 
+  }
 }
+
+botao.addEventListener("click", verificarIdade);
